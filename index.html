@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <title>Project 62</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Anish</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#gridview">Grid View</a></li>
+                <li><a href="#slideview">Slide View</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h1>
+            Galaxies
+        </h1>
+        <section id="gridview">
+            <h2>
+                Grid View
+            </h2>
+            <div class="row">
+                <img id="gridimage1" src="https://miro.medium.com/max/12032/0*ictCtjrUmbGz0tiq">
+                <img id="gridimage2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Andromeda_Galaxy_560mm_FL.jpg/1200px-Andromeda_Galaxy_560mm_FL.jpg">
+                <img id="gridimage3" src="http://www.nasa.gov/sites/default/files/thumbnails/image/archives_m33_0.jpg">
+            </div>
+            <br>
+            <div class="row">
+                <img id="gridimage4" src="https://astrobackyard.com/wp-content/uploads/2020/04/whirlpool-galaxy-telescope.jpg">
+                <img id="gridimage5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/M104_ngc4594_sombrero_galaxy_hi-res.jpg/1200px-M104_ngc4594_sombrero_galaxy_hi-res.jpg">
+                <img id="gridimage6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/M101_hires_STScI-PRC2006-10a.jpg/1200px-M101_hires_STScI-PRC2006-10a.jpg">
+            </div>
+        </section>
+        <section id="slideview">
+            <h2>
+                Slide View
+            </h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active">
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="1">
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="2">
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="3">
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="4">
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="5">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://miro.medium.com/max/12032/0*ictCtjrUmbGz0tiq">
+                        <div class="carousel-caption">
+                            <p>
+                                Milky Way Galaxy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Andromeda_Galaxy_560mm_FL.jpg/1200px-Andromeda_Galaxy_560mm_FL.jpg">
+                        <div class="carousel-caption">
+                            <p>
+                                Andromeda Galaxy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://www.nasa.gov/sites/default/files/thumbnails/image/archives_m33_0.jpg">
+                        <div class="carousel-caption">
+                            <p>
+                                Triangulum Galaxy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://astrobackyard.com/wp-content/uploads/2020/04/whirlpool-galaxy-telescope.jpg">
+                        <div class="carousel-caption">
+                            <p>
+                                Whirpool Galaxy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/M104_ngc4594_sombrero_galaxy_hi-res.jpg/1200px-M104_ngc4594_sombrero_galaxy_hi-res.jpg">
+                        <div class="carousel-caption">
+                            <p>
+                                Sombrero Galaxy
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/M101_hires_STScI-PRC2006-10a.jpg/1200px-M101_hires_STScI-PRC2006-10a.jpg">
+                        <div class="carousel-caption">
+                            <p>
+                                Pinwheel Galaxy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left">
+                    </span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right">
+                    </span>
+                </a>
+            </div>          
+        </section>
+    </div>
+</body></html>
